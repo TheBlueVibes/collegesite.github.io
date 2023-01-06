@@ -1,0 +1,850 @@
+.topnav{
+    background-color: #E79800;
+    z-index: 9999;    
+}
+.stickyheader {
+    position: fixed;
+    top: 0;
+    left: 0px;
+    width: 100%;
+    transition: 0.5s;
+}
+.container.topmenu {
+    max-width: 94%;
+}
+.logo img {
+    border-radius: 50%;
+    height: 80px;
+    width: 100px;
+    padding: 2px;
+}
+.col-md-5.editingagain {
+    position: relative;
+}
+.logoname {
+    position: absolute;
+    z-index: 9999;
+    top: 5px;
+    left: 150px;
+}
+.logoname h3 {
+    font-weight: 700;
+    font-size: 35px;
+    color: #FFF;
+    margin: 0px;
+}
+.menu ul {
+    margin: 0px;
+}
+.menu ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 28px 15px;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 14px;
+}
+.linksearch ul li {
+    list-style: none;
+    display: inline-block;
+    color: #FFF;
+    font-size: 13px;
+    padding: 0px 10px;
+}
+.linksearch ul li a {
+    text-decoration: none;
+    color: #FFF;
+    padding: 0px 5px;
+    font-size: 14px;
+}
+nav.topcontact {
+    background-color: #242C42;
+    padding: 10px;
+}
+.support a {
+    text-decoration: none;
+    color: #FFF;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    padding-right: 20px;
+}
+.support a i {
+    font-size: 14px;
+    color: #E79806;
+}
+.linksearch ul {
+    margin: 0px;
+    padding: 0px;
+}
+.linksearch ul li a:hover {
+    transition: 0.5s;
+    /*background-color: #E79806;*/
+    border-radius: 50%;
+}
+.linksearch ul li:hover {
+    color: #E79806;
+    transition: 0.5s;
+    cursor: pointer ;
+}
+.linksearch p{
+    color: #FFF;
+    display: inline;
+}
+.support a:hover {
+    transition: 0.5s;
+    color: #FFF;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 500px;
+  }
+.menu ul li a:hover {
+    transition: 0.5s;
+    color: #242c42;
+}
+.downschool ul li, .downug ul li, .aboutus ul li, .downevents ul li, .downacad ul li {
+    display: block;
+    padding: 10px;
+    border-bottom: 1px solid #ffffff2e;
+}
+.downschool ul, .downug ul, .aboutus ul, .downevents ul, .downacad ul {
+    margin: 0px;
+    padding: 0px;
+}
+.downschool, .downug, .aboutus, .downevents, .downacad {
+    background-color: #242c42;
+    width: 170px;
+    position: absolute;
+    z-index: 9999;
+    top: 40px;    
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+}
+.downschool ul li:hover, .downug ul li:hover, .aboutus ul li:hover, .downevents ul li:hover, .downacad ul li:hover {
+    border: none;
+    transition: 0.5s;
+}
+.downschool ul li a:hover, .downug ul li a:hover, .aboutus ul li a:hover, .downevents ul li a:hover, .downacad ul li a:hover {
+    color: #e79800;
+}
+.downschool {
+    left: 205px;
+}
+.downug {
+    right: 180px;
+}
+.downevents {
+    right: 70px;
+}
+.aboutus {
+    left: 80px;
+}
+.downacad {
+    left: 333px;
+}
+.menu {
+    position: relative;
+}
+.menu ul li:hover > .downschool, .menu ul li:hover > .downug, .menu ul li:hover > .aboutus, .menu ul li:hover > .downevents, .menu ul li:hover > .downacad{
+    opacity: 1;
+    visibility: visible;
+    transition: 0.5s;
+    top: 80px;
+}
+.entertxt img {
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+}
+.entertxt {
+    margin: 20px;
+    text-align: center;
+}
+.entertxt h4 {
+    color: #e79806;
+    line-height: 50px;
+    font-size: 25px;
+}
+.entertxt p {
+    font-size: 15px;
+    padding: 10px;
+    color: #242c42;
+}
+.academicclass {
+    background-color: #242c42;
+    padding: 40px;
+    text-align: center;
+}
+.mainheadingtwo h1 {
+    color: #FFF;
+    font-size: 45px;
+    font-family: arial, sans-serif;
+    font-weight: 500;
+}
+.mainheadings {
+    text-align: center;
+}
+.mainheadings h1 {
+    color: #242c42;
+    font-size: 45px;
+    font-family: arial, sans-serif;
+    font-weight: 500;
+}
+.mainheadings i, .mainheadingtwo i, .editingourabout i {
+    color: #e79806;
+}
+.abouttwous {
+    padding: 40px 0px;
+    text-align: center;
+    background-color: #242c42;
+}
+.editingourabout h1 {
+    color: #FFF;
+    font-size: 45px;
+    font-family: arial, sans-serif;
+    font-weight: 500;
+}
+.editingourabout p {
+    margin-top: 20px;
+    color: #ffffffc2;
+    font-style: italic;
+    line-height: 29px;
+}
+.visionmission {
+    padding: 40px 0px;
+    background-color: #0000000d;
+}
+.col-md-6.editourmission {
+    padding: 40px;
+    margin-top: 20px;
+}
+.col-md-6.editourmission span {
+    display: block;
+    color: #e79806;
+    font-size: 22px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.col-md-6.editourmission p {
+    font-style: italic;
+    line-height: 26px;
+    text-align: center;
+}
+.col-md-6.editourmission:hover {
+    transition: transform, .4s;
+    transform: scale(1.1);
+    background-color: #FFF;
+    border-radius: 5px;
+}
+.ourpresi {
+    padding: 40px;
+}
+.col-md-6.edithtepresident {
+    padding: 20px;
+    margin-top: 40px;
+}
+.col-md-6.edithtepresident p {
+    font-style: italic;
+    color: black;
+    line-height: 25px;
+    text-align: center;
+}
+.col-md-6.edithtepresident img {
+    width: 100%;
+    margin: 40px 20px;
+    border-radius: 5px;
+}
+.princidesk {
+    padding: 40px 0px;
+    text-align: center;
+    background-color: #242c42;
+}
+.col-md-12.editheprinci {
+    margin-top: 40px;
+}
+.col-md-12.editheprinci p {
+    font-style: italic;
+    color: #ffffffc7;
+    line-height: 23px;
+}
+.infra{
+    padding: 45px 0px;
+}
+.enterform h2 {
+    text-align: right;
+    color: #e79806;
+    padding: 20px;
+}
+.enterform form input, .enterform form select, .enterform form textarea {
+    width: 100%;
+    background-color: #242c42;
+    border: 1px solid #ffffff1a;
+    padding: 15px;
+    margin: 10px;
+    outline: none;
+    color: #FFF;
+}
+.enterform form {
+    padding: 30px;
+}
+.editadmission img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    padding: 20px;
+}
+.editadmission {
+    padding: 70px;
+}
+.editadmission h1 {
+    font-family: arial;
+    font-size: 42px;
+    line-height: 110px;
+}
+.editadmission h6 {
+    color: red;
+    font-family: aria;
+    line-height: 30px;
+    font-size: 17px;
+}
+.editadmission p {
+    color: #ffffffe6;
+    font-style: italic;
+    padding: 20px;
+}
+.enterform form button {
+    width: 40%;
+    padding: 10px;
+    margin: 10px 22px;
+    background-color: #242c42;
+    color: #e79806;
+    border: 1px solid;
+}
+.enterform form button:hover {
+    color: #242c42;
+    background-color: #e79806;
+    font-weight: 700;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.setcourse {
+    background-color: #00000014;
+    padding: 40px 0px;
+}
+.enteracademic {
+    padding: 50px 0px 50px 0px;
+    text-align: center;
+}
+.enteracademic i {
+    font-size: 30px;
+    color: #e89801;
+    background-color: #242c42;
+    padding: 30px;
+    border-radius: 50%;
+    border: 5px solid #e89801;
+}
+.enteracademic h4 {
+    color: #e89801;
+    padding-top: 20px;
+}
+.enteracademic p {
+    font-style: italic;
+    line-height: 10px;
+    color: #242c42;
+    font-size: 12px;
+}
+.enteracademic:hover > i {
+    color: #242c42;
+    background-color: #e89801;
+    border: 5px solid #242c42;
+    transition: 0.5s;
+}
+.enteracademic:hover > h4 {
+    color: #242c42;
+    transition: 0.5s;
+}
+.enterfaculities {
+    padding: 40px 0px;
+}
+.enterfaculities p {
+    font-style: italic;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 40px;
+}
+.editncc {
+    background-color: #242c42;
+    padding: 40px 0px;
+    text-align: center;
+}
+.editwohar h1, .editnational h1, .lasteditred h1 {    
+    font-family: arial, sans-serif;
+    line-height: 55px;
+}
+.editwohar h1, .lasteditred h1{
+    color:#e79806;
+}
+.editnational h1{
+    color: #242c42;
+}
+.editwohar, .editnational{
+    background-color: #FFF;
+}
+.lasteditred{
+    background-color: #ebebeb2e;
+}
+.editwohar, .editnational, .lasteditred{    
+    margin: 0px 20px;
+    padding: 29px;
+    border-radius: 5px;
+    transition: transform .4s;
+}
+.editwohar p, .editnational p{
+    color: #0000008c;
+}
+.lasteditred p{
+    color: #000;
+}
+.editwohar p, .editnational p, .lasteditred p {
+    font-style: italic;
+    line-height: 26px;    
+}
+.editncc span {
+    margin-bottom: 40px;
+    display: block;
+}
+.editwohar b {
+    display: block;
+    text-align: left;
+    margin-top: 21px;
+    font-style: normal;
+}
+.editwohar a {
+    text-align: left;
+    display: block;
+    color: black;
+    font-style: normal;
+    text-decoration: none;
+}
+.editwohar i {
+    display: block;
+    text-align: left;
+    font-size: 14px;
+}
+.editwohar:hover, .editnational:hover, .lasteditred:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.editphyc {
+    background-color: #ebebeb;
+    padding: 40px 0px;
+    text-align: center;
+}
+.editribbionc {
+    padding: 40px 0px;
+    text-align: center;
+}
+.eventsection {
+    background-color: #242c42;
+    padding: 40px 0px;
+}
+.editthepho {
+    text-align: center;
+}
+a.nav-link.active {
+    background-color: #e89801 !important;
+    border-radius: 0px;
+    padding: 10px 40px;
+    color: #242c42 !important;
+    font-weight: 600;
+}
+a.nav-link {
+    color: #e89801;
+}
+li.nav-item {
+    margin: 20px 20px 0px 20px;
+}
+.photoedits img {
+    width: 113%;
+    height: 170px;
+}
+.photoedits {
+    position: relative;
+    transition: transform .4s;
+}
+.photoedits span {
+    color: #ffffffd9;
+    position: absolute;
+    z-index: 9999;
+    top: 65px;
+    font-size: 30px;
+    font-family: arial, sans-serif;
+    font-style: italic;
+    left: 70px;
+    visibility: hidden;
+}
+.photoedits:hover > span {
+    visibility: visible;
+    transition: 0.7s;
+}
+.photoedits:hover {
+    transform: scale(1.1);
+    z-index: 9999;
+}
+section.annualediting {
+    background-color: #ebebeb94;
+    padding: 40px;
+    text-align: center;
+}
+section.annualediting p {
+    font-size: 18px;
+    font-style: italic;
+    line-height: 30px;
+}
+.sportsediting h1 {
+    color: #e79806;
+    font-size: 45px;
+    font-family: arial, sans-serif;
+    font-weight: 500;
+}
+.sportsediting i {
+    color: #242c42e7;
+}
+section.sportsediting {
+    padding: 40px 0px;
+    text-align: center;
+}
+section.sportsediting p {
+    font-style: italic;
+    line-height: 22px;
+}
+section.sportsediting i {
+    color: red;
+    margin-bottom: 40px;
+}
+.editnoticemark {
+    margin: 0px;
+    background-color: #242c42;
+    padding: 7px;
+    color: #e79806;
+}
+.footedit img {
+    width: 30%;
+    border-radius: 50%;
+}
+.footedit {
+    padding: 40px;
+}
+.endedit {
+    background-color: #242C42;
+    text-align: center;
+}
+.footedit h3 {
+    color: #FFF;
+    font-family: arial, sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+.footedit ul li {
+    list-style: none;
+    padding: 8px;
+}
+.footedit ul li a i {
+    color: #e89801;
+}
+.footedit ul li a {
+    text-decoration: none;
+}
+.footedit ul li a span {
+    color: #FFF;
+    padding: 0px 0px 0px 10px;
+    font-size: 14px;
+}
+.footedit ul {
+    display: block;
+    margin: 0px auto;
+    padding: 20px;
+}
+.foottwo {
+    background-color: #171d2d;
+}
+.footedit h1 {
+    color: #ffffffd9;
+    font-family: arial, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.footedit h4 {
+    color: #ffffffd1;
+    font-family: arial, sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+}
+.col-md-6.footedit ul li {
+    display: inline;
+}
+.col-md-6.footedit ul {
+    margin: 0px;
+    padding: 0px;
+}
+.col-md-6.footedit li a {
+    font-size: 14px;
+    color: #ffffffb5;
+}
+.col-md-6.footedit p {
+    color: #ffffff61;
+    font-size: 14px;
+    margin: 0px;
+}
+.col-md-6.footedit {
+    padding: 10px;
+}
+.footedit div {
+    text-align: left;
+}
+.editlogin {
+    background-color: #242c42;
+    padding: 50px 0px 165px 0px;
+}
+.editregister {
+    background-color: #242c42;
+    padding: 50px 0px;
+}
+.enterform h1 {
+    color: #FFF;
+    text-align: center;
+}
+.enterform p {
+    color: #FFF;
+    text-align: center;
+}
+button.sryeditbtn {
+    display: block;
+    margin: 20px auto !important;
+}
+@media only screen and (max-width: 769px) and (min-width: 10px)  {
+    nav.topcontact {
+        display: none;
+    }
+    .photoedits img {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .enterform h2 {
+        text-align: center;
+    }
+    .editadmission h1 {
+        color: #FFF;
+    }
+    .editadmission {
+        padding: 0px;
+    }
+    .princidesk {
+        padding: 5px;
+    }
+    .col-md-6.edithtepresident {
+        padding: 0px;
+    }
+    .col-md-6.edithtepresident img {
+        width: 91%;
+    }
+    .abouttwous {
+        padding: 5px;
+    }
+    section.sportsediting {
+        padding: 5px;
+    }
+    .menu {
+        position: absolute;
+        z-index: 9999;
+        background-color: #e79800;
+        width: 70%;
+        height: 1200px;
+        right: -280px;
+        text-align: center;
+        transition: 0.5s;
+    }
+    .menu.tryingtoedit {
+        right: -12px;
+    }
+    .menu ul {
+        padding: 0px;
+    }
+    .menu ul li {
+        display: block;
+        padding: 10px;
+        border-bottom: 1px solid #FFF;
+    }
+    .menu ul li{
+        pointer-events: none;
+    }
+    .carousel-inner img {
+        height: 300px;
+    }
+    .carousel-caption h1 {
+        font-size: 25px;
+    }
+    .carousel-caption h3 {
+        font-size: 17px;
+    }
+    .carousel-caption p {
+        font-size: 12px;
+    }
+    .editingtoffle {
+        position: absolute;
+        top: 20px;
+        right: 10px;
+    }
+    .editingtoffle div {
+        background-color: #242c42;
+        z-index: 9999;
+        width: 30px;
+        height: 3px;
+        margin: 7px;
+    }    
+    .logoname h3 {
+        font-size: 20px;
+    }    
+    .logoname h6 {
+        font-size: 10px;
+    }    
+    .logoname {
+        top: 15px;
+    }    
+    .logo img {
+        width: 90px;
+    }    
+    .editingourabout h1 {
+        font-size: 30px;
+    }    
+    .editingourabout p {
+        font-size: 13px;
+        line-height: 17px;
+    }    
+    .mainheadings h1 {
+        font-size: 30px;
+    }    
+    .col-md-6.editourmission span {
+        font-size: 18px;
+    }    
+    .col-md-6.editourmission p {
+        font-size: 13px;
+        line-height: 17px;
+    }    
+    .ourpresi {
+        padding: 20px;
+    }    
+    .col-md-6.edithtepresident p {
+        font-size: 13px;
+        line-height: 17px;
+    }    
+    .mainheadingtwo h1 {
+        font-size: 30px;
+    }    
+    .col-md-12.editheprinci p {
+        font-size: 13px;
+        line-height: 17px;
+    }
+    .entertxt h4 {
+        font-size: 19px;
+    }    
+    .entertxt p {
+        font-size: 13px;
+        line-height: 17px;
+    }    
+    .editadmission img {
+        height: 100px;
+        width: 100px;
+    }
+    .academicclass {
+        padding: 0px;
+    }
+    .editadmission h1 {
+        font-size: 30px;
+    }
+    .editadmission p {
+        font-size: 13px;
+        line-height: 17px;
+    }
+    .enterform form input, .enterform form select, .enterform form textarea {
+        padding: 10px;
+        margin: 10px 0px;
+        font-size: 13px;
+    }
+    .enterform form button {
+        font-size: 14px;
+        width: 30%;
+    }
+    .enterform {
+        padding: 20px;
+    }
+    .enterform form {
+        padding: 0px;
+    }
+    .enteracademic i {
+        font-size: 20px;
+        padding: 20px;
+    }
+    .enteracademic {
+        padding: 30px;
+    }
+    .enterfaculities p {
+        font-size: 13px;
+        line-height: 18px;
+    }
+    .editwohar h1, .lasteditred h1 {
+        font-size: 30px;
+    }
+    .editwohar p, .editnational p, .lasteditred p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    li.nav-item {
+        margin: 5px;
+        font-size: 13px;
+    }
+    a.nav-link.active {
+        padding: 8px 20px;
+        font-size: 13px;
+    }
+    .editnational h1 {
+        font-size: 30px;
+    }
+    section.annualediting p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .sportsediting h1 {
+        font-size: 30px;
+    }
+    section.sportsediting p {
+        font-size: 13px;
+        line-height: 18px;
+    }
+    .editingtoffle.changingcross div:nth-child(2) {
+        display: none;
+        transition: 0.5s;
+    }
+    .editingtoffle.changingcross div:nth-child(1) {
+        position: absolute;
+        transform: rotate(50deg);
+        transition: 0.5s;
+    }
+    .editingtoffle.changingcross div:nth-child(3) {
+        position: absolute;
+        transform: rotate(-45deg);
+        transition: 0.5s;
+    }
+    .editingtoffle.changingcross {
+        position: absolute;
+        right: 50px;
+        top: 30px;
+    }
+}
+
+
+
